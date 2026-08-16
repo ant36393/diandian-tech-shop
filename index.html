@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="點點資訊企業社精選手機殼、行動電源、鏡頭保護貼與快充線，現貨速出。"
+    />
+    <title>點點資訊企業社 | 3C 精選賣場</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="top-bar">
+        <div class="top-bar__inner">
+          <a class="brand-lockup" href="#top" aria-label="點點資訊企業社首頁">
+            <span class="brand-mark">點</span>
+            <span>
+              <strong>點點資訊企業社</strong>
+              <small>3C 現貨精選</small>
+            </span>
+          </a>
+
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input id="shopSearch" placeholder="搜尋手機殼、快充線、行動電源" type="search" />
+          </label>
+
+          <button class="cart-button" id="openCart" type="button">
+            <span aria-hidden="true">□</span>
+            <span>購物車</span>
+            <b id="cartCount">0</b>
+          </button>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="campaign-band" aria-label="點點資訊企業社精選活動">
+          <div class="campaign-band__copy">
+            <div class="campaign-kicker">
+              <span aria-hidden="true">✦</span>
+              本週 3C 配件專場
+            </div>
+            <h1>手機保護、快充補電，一站配齊</h1>
+            <p>
+              嚴選五款日常最常用 3C 小物，最高不用 1200 元。點點資訊企業社幫你把實用、好看、現貨一次放進賣場。
+            </p>
+            <div class="voucher-row" aria-label="優惠資訊">
+              <span>全館滿 699 免運</span>
+              <span>兩件 95 折</span>
+              <span>現貨快速出貨</span>
+            </div>
+          </div>
+
+          <div class="campaign-band__feature">
+            <img id="featureImage" src="/products/power-bank-cx01.jpg" alt="VOORCA 3合1 磁吸行動電源 10000mAh" />
+            <div class="feature-info">
+              <span id="featureBadge">旅行推薦</span>
+              <strong id="featureName">3合1 磁吸行動電源</strong>
+              <small id="featurePrice">NT$ 999</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="trust-strip" aria-label="賣場服務">
+          <div><span aria-hidden="true">▣</span><span>台灣現貨</span></div>
+          <div><span aria-hidden="true">✓</span><span>出貨前檢查</span></div>
+          <div><span aria-hidden="true">◇</span><span>安心保固</span></div>
+          <div><span aria-hidden="true">★</span><span>精選品牌</span></div>
+        </section>
+
+        <section class="category-tabs" aria-label="商品分類">
+          <button class="is-active" type="button" data-category-filter="全部">全部</button>
+          <button type="button" data-category-filter="保護殼">保護殼</button>
+          <button type="button" data-category-filter="行動電源">行動電源</button>
+          <button type="button" data-category-filter="鏡頭貼">鏡頭貼</button>
+          <button type="button" data-category-filter="充電線">充電線</button>
+        </section>
+
+        <section class="shop-layout" aria-label="商品列表">
+          <aside class="deal-panel">
+            <div class="deal-panel__header">
+              <span aria-hidden="true">↯</span>
+              <span>今日主打</span>
+            </div>
+            <img id="dealImage" src="/products/power-bank-cx01.jpg" alt="VOORCA 3合1 磁吸行動電源 10000mAh" />
+            <h2 id="dealName">VOORCA 3合1 磁吸行動電源 10000mAh</h2>
+            <p id="dealCopy">手機、手錶、耳機一次補電，自帶 Type-C 與 Lightning 雙線，短途出門不用再另外翻線材。</p>
+            <div class="deal-price">
+              <strong id="dealPrice">NT$ 999</strong>
+              <span id="dealOriginal">NT$ 1,190</span>
+            </div>
+            <div class="spec-list" id="dealSpecs">
+              <span>10000mAh</span>
+              <span>自帶雙線</span>
+              <span>15W 磁吸無線充</span>
+              <span>iWatch 充電</span>
+            </div>
+            <button class="primary-action" type="button" data-add-cart="cx01">
+              <span aria-hidden="true">＋</span>
+              加入購物車
+            </button>
+          </aside>
+
+          <div class="product-area">
+            <div class="section-heading">
+              <div>
+                <p>點點嚴選</p>
+                <h2>熱門商品</h2>
+              </div>
+              <button class="sort-button" type="button">
+                綜合排序
+                <span aria-hidden="true">⌄</span>
+              </button>
+            </div>
+
+            <div class="product-grid">
+              <article
+                class="product-card"
+                data-product-card
+                data-product-id="case"
+                data-category="保護殼"
+                data-keywords="透明磨砂磁吸 AI 相機按鍵防摔殼 保護殼 磁吸支架 四角氣囊"
+              >
+                <button class="image-button" type="button" data-feature-product="case" aria-label="查看 透明磨砂磁吸 AI 相機按鍵防摔殼">
+                  <img src="/products/magsafe-case.jpg" alt="透明磨砂磁吸 AI 相機按鍵防摔殼" />
+                  <span>熱銷補貨</span>
+                </button>
+                <div class="product-card__body">
+                  <button class="product-title" type="button" data-feature-product="case">透明磨砂磁吸 AI 相機按鍵防摔殼</button>
+                  <p>半透明磨砂背板保留手機原色，四角隱形氣囊緩衝日常碰撞，磁吸圈可搭配車架與充電座。</p>
+                  <div class="color-row" aria-label="透明磨砂磁吸 AI 相機按鍵防摔殼 顏色">
+                    <span>透明</span><span>霧白</span><span>曜黑</span>
+                  </div>
+                  <div class="product-meta">
+                    <span>★ 4.9</span>
+                    <span>已售 184</span>
+                  </div>
+                  <div class="product-card__footer">
+                    <div>
+                      <strong>NT$ 399</strong>
+                      <small>NT$ 590</small>
+                    </div>
+                    <button type="button" data-add-cart="case" aria-label="加入 透明磨砂磁吸 AI 相機按鍵防摔殼">＋</button>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="product-card"
+                data-product-card
+                data-product-id="cx01"
+                data-category="行動電源"
+                data-keywords="VOORCA 3合1 磁吸行動電源 10000mAh Apple 手錶 自帶雙線"
+              >
+                <button class="image-button" type="button" data-feature-product="cx01" aria-label="查看 VOORCA 3合1 磁吸行動電源 10000mAh">
+                  <img src="/products/power-bank-cx01.jpg" alt="VOORCA 3合1 磁吸行動電源 10000mAh" />
+                  <span>旅行推薦</span>
+                </button>
+                <div class="product-card__body">
+                  <button class="product-title" type="button" data-feature-product="cx01">VOORCA 3合1 磁吸行動電源 10000mAh</button>
+                  <p>手機、手錶、耳機一次補電，自帶 Type-C 與 Lightning 雙線，短途出門不用再另外翻線材。</p>
+                  <div class="color-row" aria-label="VOORCA 3合1 磁吸行動電源 10000mAh 顏色">
+                    <span>粉</span><span>藍</span><span>黑</span><span>白</span>
+                  </div>
+                  <div class="product-meta">
+                    <span>★ 4.8</span>
+                    <span>已售 96</span>
+                  </div>
+                  <div class="product-card__footer">
+                    <div>
+                      <strong>NT$ 999</strong>
+                      <small>NT$ 1,190</small>
+                    </div>
+                    <button type="button" data-add-cart="cx01" aria-label="加入 VOORCA 3合1 磁吸行動電源 10000mAh">＋</button>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="product-card"
+                data-product-card
+                data-product-id="lens"
+                data-category="鏡頭貼"
+                data-keywords="X-ONE 藍寶石鏡頭保護貼 iPhone 18 系列 鏡頭貼 莫氏硬度"
+              >
+                <button class="image-button" type="button" data-feature-product="lens" aria-label="查看 X-ONE 藍寶石鏡頭保護貼 iPhone 18 系列">
+                  <img src="/products/lens-protector.jpg" alt="X-ONE 藍寶石鏡頭保護貼 iPhone 18 系列" />
+                  <span>新品上架</span>
+                </button>
+                <div class="product-card__body">
+                  <button class="product-title" type="button" data-feature-product="lens">X-ONE 藍寶石鏡頭保護貼 iPhone 18 系列</button>
+                  <p>給鏡頭多一層硬派保護，通透清晰不影響拍攝，外框多色可選，與新機配色更好搭。</p>
+                  <div class="color-row" aria-label="X-ONE 藍寶石鏡頭保護貼 iPhone 18 系列 顏色">
+                    <span>石墨黑</span><span>銀色</span><span>藍色</span><span>櫻桃紅</span><span>炫彩</span>
+                  </div>
+                  <div class="product-meta">
+                    <span>★ 4.9</span>
+                    <span>已售 72</span>
+                  </div>
+                  <div class="product-card__footer">
+                    <div>
+                      <strong>NT$ 520</strong>
+                      <small>NT$ 690</small>
+                    </div>
+                    <button type="button" data-add-cart="lens" aria-label="加入 X-ONE 藍寶石鏡頭保護貼 iPhone 18 系列">＋</button>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="product-card"
+                data-product-card
+                data-product-id="cable"
+                data-category="充電線"
+                data-keywords="UNIQTOUGH APEX 100W Type-C 編織快充線 充電線 E-marker"
+              >
+                <button class="image-button" type="button" data-feature-product="cable" aria-label="查看 UNIQTOUGH APEX 100W Type-C 編織快充線">
+                  <img src="/products/charging-cable.jpg" alt="UNIQTOUGH APEX 100W Type-C 編織快充線" />
+                  <span>店長主推</span>
+                </button>
+                <div class="product-card__body">
+                  <button class="product-title" type="button" data-feature-product="cable">UNIQTOUGH APEX 100W Type-C 編織快充線</button>
+                  <p>內建 E-marker 晶片自動調整電流，筆電、平板、手機都能穩定快充，168cm 桌邊使用剛剛好。</p>
+                  <div class="color-row" aria-label="UNIQTOUGH APEX 100W Type-C 編織快充線 顏色">
+                    <span>米金</span><span>黑</span><span>銀</span><span>藍</span>
+                  </div>
+                  <div class="product-meta">
+                    <span>★ 4.9</span>
+                    <span>已售 233</span>
+                  </div>
+                  <div class="product-card__footer">
+                    <div>
+                      <strong>NT$ 450</strong>
+                      <small>NT$ 560</small>
+                    </div>
+                    <button type="button" data-add-cart="cable" aria-label="加入 UNIQTOUGH APEX 100W Type-C 編織快充線">＋</button>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="product-card"
+                data-product-card
+                data-product-id="db18"
+                data-category="行動電源"
+                data-keywords="DB18 3合1 強磁支架行動電源 10000mAh 行動電源 無線充 支架"
+              >
+                <button class="image-button" type="button" data-feature-product="db18" aria-label="查看 DB18 3合1 強磁支架行動電源 10000mAh">
+                  <img src="/products/power-bank-db18.jpg" alt="DB18 3合1 強磁支架行動電源 10000mAh" />
+                  <span>限時優惠</span>
+                </button>
+                <div class="product-card__body">
+                  <button class="product-title" type="button" data-feature-product="db18">DB18 3合1 強磁支架行動電源 10000mAh</button>
+                  <p>薄型金屬感機身搭配強磁吸附，邊追劇邊充電更順手，通勤與辦公桌都適合。</p>
+                  <div class="color-row" aria-label="DB18 3合1 強磁支架行動電源 10000mAh 顏色">
+                    <span>玫瑰金</span><span>藍色</span><span>灰色</span><span>香檳金</span>
+                  </div>
+                  <div class="product-meta">
+                    <span>★ 4.8</span>
+                    <span>已售 128</span>
+                  </div>
+                  <div class="product-card__footer">
+                    <div>
+                      <strong>NT$ 890</strong>
+                      <small>NT$ 1,080</small>
+                    </div>
+                    <button type="button" data-add-cart="db18" aria-label="加入 DB18 3合1 強磁支架行動電源 10000mAh">＋</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <aside class="cart-drawer" id="cartDrawer" aria-label="購物車">
+        <div class="cart-drawer__header">
+          <div>
+            <span>點點購物車</span>
+            <strong id="cartTitle">0 件商品</strong>
+          </div>
+          <button type="button" id="closeCart" aria-label="關閉購物車">×</button>
+        </div>
+
+        <div class="empty-cart" id="emptyCart">
+          <span aria-hidden="true">□</span>
+          <p>還沒有商品</p>
+        </div>
+
+        <div class="cart-items" id="cartItems"></div>
+
+        <div class="cart-summary">
+          <span>小計</span>
+          <strong id="cartTotal">NT$ 0</strong>
+        </div>
+        <a class="checkout-link is-disabled" id="checkoutLink">
+          <span aria-hidden="true">♡</span>
+          詢問現貨
+        </a>
+      </aside>
+
+      <button class="drawer-backdrop" id="drawerBackdrop" type="button" aria-label="關閉購物車"></button>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
